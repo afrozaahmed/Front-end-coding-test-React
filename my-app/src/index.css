@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-2{
+  margin-top: 15px;
+}
+
+.modelType{
+  margin-left: 7px;
+}
+
+.image{
+  margin-top: 15px;
+  width: 300px;
+}
+
+.modelName{
+  margin-top: 10px;
+}
+
+.logo{
+  width: 45px;
+  float: right;
+  margin-top: 30px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.logo1{
+  width: 45px;
+  float: right;
+  margin-top: 30px;
+  transform: rotate(180deg);
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.logo-none{
+  width: 45px;
+  float: right;
+  margin-top: 30px;
+  margin-left: 7px;
+  pointer-events: none;
+}
+
+.logo1-none{
+  width: 45px;
+  float: right;
+  margin-top: 30px;
+  transform: rotate(180deg);
+  margin-left: 7px;
+  pointer-events: none;
+}
+
+.link-logo{
+  margin-top: 35px;
+  margin-left: 7px;
+  width:13px;
+}
+
+.link-logo1{
+  width: 13px;
+  margin-left: 7px;
+}
+
+.learn-span a {
+  text-decoration: none;
+}
+
+.shop-span a {
+  margin-left: 20px;
+  text-decoration: none;
+}
